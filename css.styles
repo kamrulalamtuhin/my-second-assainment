@@ -1,0 +1,26 @@
+*{
+
+}
+p{
+    font-family: 'Raleway';
+    size: 16px;
+    color: black;
+}
+.header{
+    width: 100%;
+    height: 80px;
+}
+.header h3{
+    font-size:20px;
+}
+.banner{
+    display: flex;
+}
+.banner .banner-left{
+    display:inline-block;
+    width:50%;
+}
+.banner .banner-right{
+    display:inline-block;
+    width:50%;
+}

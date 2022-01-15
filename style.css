@@ -1,0 +1,98 @@
+*{padding: 0px 20px;
+  background-color: #f2f1f2;
+}
+p{
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-weight: 400px;
+    color: black;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: #e32d6f;
+    padding: 10px 20px;
+    text-align: center;
+    margin-left: 20px;
+
+}
+.header{
+    width: 100%;
+    height: 80px;
+}
+.header h3{
+    font-size:20px;
+}
+.banner{
+    display: flex;
+}
+.banner .banner-left{
+    display:inline-block;
+    width:50%;
+    padding-top: 35px;
+}
+.banner h1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.banner .btn{
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.banner .banner-right{
+    display:inline-block;
+    width:50%;
+    background:url(./images/Circle\ design.svg) no-repeat center;
+}
+.sub-div{
+    width: 31%;
+    background: white;
+    padding: 2px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 1%;
+}
+.sub-div img{
+    width: 88%;
+    background-color: rgba(245, 243, 243, 0);
+}
+.sub-div h2{
+    background-color: rgba(245, 243, 243, 0) ;
+    padding-bottom: 5px;
+}
+.sub-div p{
+    background-color: rgba(245, 243, 243,0);
+    }
+.products .l{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.main-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fa-star{
+    font-size: 12px;
+    padding: 0;
+}
+.fa-star.filled{
+    color: yellow;
+}
+
+.fa-star.empty{
+    color: #AEAEAE ;
+}
+.star-rating{
+    align-items: center;
+    display: flex;
+}
+.see-more{
+    text-decoration: none;
+    color: white;
+    background-color: #e32d6f;
+    padding: 10px 20px;
+    text-align: ;
+    margin-left: 20px;
+    
+}
