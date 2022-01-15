@@ -16,6 +16,10 @@ p{
     margin-left: 20px;
 
 }
+.btn i{
+    background-color: transparent;
+    
+}
 .header{
     width: 100%;
     height: 80px;
@@ -43,7 +47,7 @@ p{
 .banner .banner-right{
     display:inline-block;
     width:50%;
-    background:url(./images/Circle\ design.svg) no-repeat center;
+   
 }
 .sub-div{
     width: 31%;
@@ -89,10 +93,58 @@ p{
 }
 .see-more{
     text-decoration: none;
-    color: white;
-    background-color: #e32d6f;
+    color: #e32d6f;
+    background-color: transparent;
     padding: 10px 20px;
-    text-align: ;
-    margin-left: 20px;
+    margin-right: 40px;
+}
+.products-all{
+    display: flex;
+    margin-top: 60px;
     
 }
+.rating{
+    background: white;
+}
+.rating span{
+    background: white;
+}
+.foter{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+    background-color: #0b0726;
+    margin-top: 60px;
+}
+.foter p{
+    background-color: #0b0726;
+    color: white;
+}
+.foter h1{
+    background-color: #0b0726;
+    color: white;
+}
+.foter i{
+    background-color: #08093d88;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+/*------------------
+    Media Quaries
+------------- */
+/*-------------------
+    Mobile Device
+---------------- */
+@media screen (max-width: 688px) {
+    .header{
+        
+    }
+
+}
+    
+
+
+
+
+
